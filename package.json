@@ -1,0 +1,17 @@
+{
+  "name": "create-changeset-action",
+  "type": "module",
+  "scripts": {
+    "build": "node build.js"
+  },
+  "packageManager": "pnpm@9.15.1+sha512.1acb565e6193efbebda772702950469150cf12bcc764262e7587e71d19dc98a423dff9536e57ea44c49bdf790ff694e83c27be5faa23d67e0c033b583be4bfcf",
+  "dependencies": {
+    "@actions/core": "^1.11.1",
+    "@actions/github": "^6.0.0"
+  },
+  "devDependencies": {
+    "@tsconfig/node-lts": "^22.0.1",
+    "esbuild": "^0.25.2",
+    "typescript": "^5.8.3"
+  }
+}
